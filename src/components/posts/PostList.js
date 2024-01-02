@@ -111,4 +111,4 @@ const PostList = ({ posts, loading, error, showWriteButton }) => {
 
 export default PostList;
 
-git merge test4 in develop branch
+git merge test4 in master branch

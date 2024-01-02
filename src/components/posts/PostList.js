@@ -111,5 +111,4 @@ const PostList = ({ posts, loading, error, showWriteButton }) => {
 
 export default PostList;
 
-git merge test
-git merge test
+git merge test2

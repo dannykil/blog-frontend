@@ -28,6 +28,7 @@ const PostsListContainer = () => {
     const { tag, page } = qs.parse(location.search, {
       ignoreQueryPrefix: true,
     });
+    // dispatch : 스토어의 내장함수 중 하나로 액션을 발생시키는 것
     dispatch(listPosts({ tag, username, page }));
   }, [dispatch, location.search]);
 
